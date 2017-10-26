@@ -25,6 +25,9 @@
         # 'security/ir.model.access.csv',
         #'templates.xml',
         'views/openacademy.xml',
+        'views/maestros.xml',
+
+
     ],
     # only loaded in demonstration mode
     'demo': [
