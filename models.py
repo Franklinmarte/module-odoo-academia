@@ -25,8 +25,7 @@ class Maestros(models.Model):
 
     _name = 'openacademy.maestro'
 
-    name = fields.Char(string="Nombre", required=True)
-    profesion = fields.Char(string="profesion", required=True)
+    name = fields.Many2one('hr.employee')
     cursos_asignados = fields.Many2many('openacademy.course')
 
  
